@@ -1,0 +1,18 @@
+{
+  "name": "@softwerk/bodyhygienetool",
+  "version": "1.0.0",
+  "description": "a calculator that calculates body mass index and body fat percentage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bmi",
+    "bfp",
+    "body",
+    "hygiene",
+    "tool"
+  ],
+  "author": "@softwerk-code",
+  "license": "ISC"
+}
