@@ -1,4 +1,4 @@
-class BmiBfpCalcFunction{
+class Bodyhygienetool{
    
     constructor(weight, height, age, sex){
         this.weight = weight;
@@ -9,9 +9,9 @@ class BmiBfpCalcFunction{
 
     bodyMassIndex(){
         
-         let result = (this.weight / (this.height * this.height));
+        let result = (this.weight / (this.height * this.height));
         console.log("The Body Mass Index >>>",result)
-         return result
+        return result
     }
 
     bodyFatPercent(){
@@ -19,12 +19,12 @@ class BmiBfpCalcFunction{
 
         if(this.age > 18 && this.sex == "male"){
           
-        result  = 1.20 * this.bmi() + 0.23 * (this.age - 16.2)
-        console.log(`This is Body Fat Percentage for you as an Adult Male >>>`, result);
+            result  = 1.20 * this.bmi() + 0.23 * (this.age - 16.2)
+            console.log(`This is Body Fat Percentage for you as an Adult Male >>>`, result);
 
         }else if(this.age > 18 && this.sex == "female"){
             result  = 1.20 * this.bmi() + 0.23 * (this.age - 5.4)
-             console.log(`This is Body Fat Percentage for you as an Adult Female >>>`, result);
+            console.log(`This is Body Fat Percentage for you as an Adult Female >>>`, result);
              
 
         }else if(this.age < 18 && this.sex == "male"){
@@ -43,4 +43,4 @@ class BmiBfpCalcFunction{
 }
 
 
-module.exports = BmiBfpCalcFunction;
+module.exports = Bodyhygienetool;

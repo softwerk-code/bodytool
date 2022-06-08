@@ -1,5 +1,5 @@
 {
-  "name": "@softwerk/bodyhygienetool",
+  "name": "@softwerk-code/bodyhygienetool",
   "version": "1.0.0",
   "description": "calculates body mass index and body fat percentage",
   "main": "index.js",

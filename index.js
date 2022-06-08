@@ -1,6 +1,5 @@
-const Mybodyfunctions = require("./bmibfpfunction.js")
+const myBodyFunctions = require("./bodyhygienetool.js")
 
-let bodyFunction = new Mybodyfunctions(15,7,15,"male");
+let bodyFunction = new myBodyFunctions(15,7,15,"male");
 
 bodyFunction.bodyFatPercent();
-//comment
